@@ -1,0 +1,17 @@
+{
+  "reporter":"mochawesome",
+  "reporterOptions":{
+  "reportdir":"cypress/report/mochawesome-report",
+  "overwrite":false,
+  "html":true,
+  "json": false,
+  "timestamp":"mmddyyyy_HHMMss" ,
+  "screenshotsFolder":"cypress/snapshot/actual",
+  "defaultCommandTimeout": 4000,
+  "pageLoadTimeout": 30000,
+  "projectId": "1uu8f2",
+  "trashAssetsBeforeRuns":"true",
+  "chromeWebSecurity": true,
+  "crossorigin": true
+  }
+}

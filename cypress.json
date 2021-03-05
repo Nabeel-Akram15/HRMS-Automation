@@ -1,0 +1,6 @@
+{
+  "projectId": "1uu8f2",
+  "defaultCommandTimeout": 10000,
+  "config": "cypress/Stagin1.json",
+  "chromeWebSecurity": false
+}

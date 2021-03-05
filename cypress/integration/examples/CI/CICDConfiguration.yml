@@ -1,0 +1,18 @@
+name: integration-tests
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-16.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      # https://github.com/cypress-io/github-action
+      - name: Cypress run
+        uses: cypress-io/github-action@v1
+        with:
+          record: true
+          start: npm run serve
+          working-directory: frontend
+        env:
+          # pass the Dashboard record key as an environment variable
+          CYPRESS_RECORD_KEY: 68e84cf2-df6b-4fb9-94b2-3de27b826d6e
