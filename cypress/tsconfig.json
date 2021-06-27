@@ -1,21 +1,8 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
-      "outDir": "./built",
-      "allowJs": true,
-      "target": "es5",
-      "allowUnreachableCode": false,
-      "noImplicitReturns": true,
-      "noImplicitAny": true,
-      "typeRoots": [ "./typings" ],
-      "outFile": "./built/combined.js"
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress"]
   },
-  "include": [
-      "./**/*"
-, "integration/examples/Tests/Ticket/.js"  ],
-  "exclude": [
-      "./plugins/**/*",
-      "./typings/**/*",
-      "./built/**/*"
-  ]
+  "include": ["**/*.ts"]
 }

@@ -8,8 +8,7 @@
   "timestamp":"mmddyyyy_HHMMss" ,
   "screenshotsFolder":"cypress/snapshot/actual",
   "defaultCommandTimeout": 4000,
-  "pageLoadTimeout": 30000,
-  "projectId": "1uu8f2",
+  "pageLoadTimeout": 80000,
   "trashAssetsBeforeRuns":"true",
   "chromeWebSecurity": true,
   "crossorigin": true
