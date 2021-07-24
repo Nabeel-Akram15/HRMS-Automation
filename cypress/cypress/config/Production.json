@@ -1,9 +1,7 @@
 {
-    "baseUrl": "https://ct.digitaltolk.se/login",
+    "baseUrl": "https://kubra.io/stormcenter/views/d904a328-0fc3-4f93-a5ec-69d0c84e8c32",
     "env": {
-      "Base": "https://ct.digitaltolk.se/",
-      "Login":"https://ct.digitaltolk.se/login",
-      "MyBooking":"ttps://www.digitaltolk.se/customer/bookings"
+      "Base": "https://kubra.io/stormcenter/views/d904a328-0fc3-4f93-a5ec-69d0c84e8c32"
     }
   }
   
